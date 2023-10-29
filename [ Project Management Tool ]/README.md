@@ -2,7 +2,7 @@
 
 A web application that combines project management functionalities with social media features. It allows users to communicate with each other and assign tasks within a collaborative environment.
 
-![Screenshot](https://github.com/annjan777/bharatintern/blob/4a82699a0e1e52ad8d5acdabccbbb76303f74643/%5B%20Project%20Management%20Tool%20%5D/Screenshot.png)
+![Screenshot](https://github.com/annjan777/bharatintern/blob/e9003f93d1ef72610b6d770cdfcb0f44100ea8ba/%5B%20Project%20Management%20Tool%20%5D/Screenshot.png)
 
 ## Features
 
