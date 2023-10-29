@@ -1,0 +1,91 @@
+body 
+{
+    background-color: rgb(120, 56, 172);
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    overflow-y: auto; 
+}
+section 
+{
+    color: white;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+.task-list ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.task-list li 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+}
+.task-list li:hover { border: 5px solid rgb(255, 253, 253); }
+h1
+{
+    color: rgb(255, 255, 113);
+    text-align: center;                             
+}
+.task-info h4 
+{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: peru;
+}
+.task-due-date, .task-assigne 
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.create-task input, .create-task select, .create-task textarea 
+{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.create-task textarea { height: 100px; }
+.create-task input[type="submit"] 
+{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid gray;
+    cursor: pointer;
+}
+.create-task input[type="submit"]:hover { background-color: darkblue;color:white; }
+.comment-list { margin-top: 10px; }
+.comment 
+{
+    font-size: 30px;
+    color: gray;
+}
+.completed-task-list { margin-top: 30px; }
+.task-management { display: flex; }
+.left-section,.right-section 
+{
+    flex: 1;
+    padding: 20px;
+    border: 5px solid gold;
+    margin-left: 5px;
+}
+.left-section { flex: 3; }
+.chat-messages 
+{
+height: 400px; 
+overflow-y: auto; 
+background-color: rgb(255, 255, 255);
+margin-bottom: 15px;
+padding: 15px; 
+color: black;
+}
